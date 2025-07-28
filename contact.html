@@ -53,6 +53,12 @@
     <section class="contact">
         <div>
             <img src="img/2005-BMW-M3-GTR-Need-For-Speed-005-1080gt.jpg" alt="" style="width:100%">
+            <div
+                class="carousel-caption carousel-caption d-flex flex-column justify-content-center align-items-center h-100 text-center">
+                <h1 class="stayabout" style="font-weight: 600; font-family: Audiowide;">"Experience the thrill of the M3
+                    GTR."</h1>
+
+            </div>
         </div>
     </section>
     <section class="contact-sec" style="background-color:  rgb(57, 57, 57);">
@@ -80,7 +86,7 @@
                     <img src="img/bmw-m3-gtr-nfs-hd-05.webp" alt="M3"
                         class="img-fluid rounded shadow about-img mt-5 about-img mb-5">
                 </div>
-                <div class="col-md-6 mt-2 about-m3">
+                <!-- <div class="col-md-6 mt-2 about-m3">
                     <form>
                         <div class="mb-2">
                             <input type="email" class="form-control bg-black text-white border-white"
@@ -96,7 +102,31 @@
                         <button type="submit" class="btn btn-outline-light px-3 align-items-end">SUBSCRIBE</button>
                     </form>
 
+                </div> -->
+                <div class="col-md-6 mt-2 about-m3">
+                    <form>
+                        <div class="mb-3">
+                            <label for="countrySelect" class="form-label fw-bold text-uppercase text-white">
+                                Country / Region *
+                            </label>
+                            <select class="form-select btn btn-dark " id="countrySelect" required>
+                                <option selected disabled value="">PLEASE SELECT</option>
+                                <option value="IN">India</option>
+                                <option value="US">United States</option>
+                                <option value="UK">United Kingdom</option>
+                                <option value="CN">China</option>
+                                <option value="UAE">UAE</option>
+                                <option value="JP">Japan</option>
+
+                            </select>
+                        </div>
+                        <button type="submit" class="btn btn-dark px-4">
+                            Confirm
+                            <span class="ms-2">&gt;</span>
+                        </button>
+                    </form>
                 </div>
+
             </div>
         </div>
     </section>
